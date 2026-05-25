@@ -1,40 +1,29 @@
-# fastbox-delivery-system
-## Project Overview 
-This Python project simulates a one-day logistics operation for a fictional company called FastBox. 
 
-## Features
-- Reads delivery data from JSON
-- Assigns packages to nearest delivery agents
-- Calculates Euclidean distance
-- Simulates deliveries
-- Generates performance report
-- Saves report as JSON
+# FastBox Advanced Delivery System
 
-## Project Structure
-```
-fastbox_delivery_system/
-│
-├── main.py
-├── base_case.json
-├── report.json
-└── README.md
-```
+## Bonus Features Added
 
-## How to Run
-1. Install Python 3
-2. Open terminal in project folder
-3. Run:
-   python main.py
+### 1. Random Delivery Delays
+- Random delays added during package delivery
+- Simulates real-world logistics problems
 
-## Output
-The program generates:
-- Console report
-- report.json file
+### 2. ASCII Route Visualization
+Example:
+A1 ---> W1 ---> [30, 40]
 
-## Assignment Tasks Covered
-- JSON Parsing
-- Euclidean Distance Calculation
-- Agent-Package Assignment
-- Delivery Simulation
-- Report Generation
+### 3. Dynamic Agent Joining
+- New delivery agent joins during runtime
+- Agent ID: A4
 
+### 4. Export Best Agent to CSV
+- Creates `best_agent.csv`
+
+## Files Included
+- main.py
+- base_case.json
+- report.json
+- best_agent.csv
+- README.md
+
+## Run Command
+python main.py
